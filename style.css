@@ -1,0 +1,58 @@
+.navbar {
+  background: #2aab55;
+  border-radius: 0;
+  margin: 0;
+}
+.navbar-toggle {
+  background: green;
+}
+.icon-bar {
+  background: darkgreen;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.menu-left {
+  float: left;
+}
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+}
+.menu-link {
+  vertical-align: middle;
+  display: inline-block;
+  background: #2aab55;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Microsoft New Tai Lue", sans-serif;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.menu-link:hover,
+.menu-link:active,
+.menu-link:link {
+  color: #000000;
+  text-decoration: none;
+}
+.menu-right {
+  float: right;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.thumbnail gallery {
+  height: 200px;
+  width: 100%;
+  display: block;
+}
